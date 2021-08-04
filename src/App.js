@@ -49,6 +49,7 @@ render(){
               onChange={this.handleChange}
           />
           <input 
+              className="btn"
               type="submit"
               value="Find Giph"
           />

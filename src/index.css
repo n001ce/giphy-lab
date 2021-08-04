@@ -41,6 +41,25 @@ label, input{
   margin-right: 10px;
 }
 
+input{
+  box-shadow: 0px 3px 3px rgb(56, 56, 56);
+  border-style: none;
+  border: none;
+}
+
+.btn {
+  font-family: font;
+  background-color: rgb(65, 255, 17);
+  border-radius: 50px;
+  color: rgb(132, 0, 194);
+  border-style: none;
+  box-shadow: 3px 3px 3px rgb(44, 44, 12);
+}
+
+label{
+  text-shadow: 4px 4px 4px purple;
+}
+
 
 .giph-result{
   padding: 40px;
@@ -72,4 +91,5 @@ label, input{
   margin:auto;
   padding: 20px;
   color: yellow;
+  text-shadow: 4px 4px 4px rgb(23, 255, 15);
 }
