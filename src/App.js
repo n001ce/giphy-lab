@@ -12,10 +12,9 @@ class App extends Component{
         q: '&q=',
         queryTitle: '',
         limit: '&limit=20',
-        offset: '&offset=0',
-        searchUrl: '',
-    }
+        offset: '&0'
   }
+}
   handleChange = (event) =>{
       this.setState({[event.target.id]: event.target.value})
   }
@@ -34,7 +33,7 @@ class App extends Component{
           err => console.log(err))
       })
   }
-
+  
 
 render(){
   return(

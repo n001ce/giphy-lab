@@ -71,7 +71,7 @@ label{
   margin: 100px;
   display: grid;
   grid-gap: 10px;
-  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
   overflow-y: scroll;
   border-radius: 50px;
 }
